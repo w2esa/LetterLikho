@@ -1,0 +1,72 @@
+.subscribe {
+  &-body {
+    border: 5px solid var(--color-primary-2);
+    background: white;
+    background-image: url(../img/Illustration_2.png.jpg);
+    background-repeat: no-repeat;
+    background-size: 18rem;
+    background-position: top right;
+    padding: 3rem;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    transform: translateX(10rem);
+    -webkit-transform: translateX(10rem);
+    -moz-transform: translateX(10rem);
+    -ms-transform: translateX(10rem);
+    -o-transform: translateX(10rem);
+    position: relative;
+    z-index: 500;
+    outline-style: solid;
+    outline-color: white;
+    -moz-outline-radius: 11px;
+  }
+  &-title {
+    font-weight: 700;
+    margin-bottom: 5rem;
+    & span {
+      font-weight: 300;
+      font-size: 1.6rem;
+    }
+  }
+  &-btn {
+    display: block;
+    width: 100%;
+  }
+  &-right {
+    background: var(--color-primary);
+    border-radius: 0.5em;
+    padding: 8rem;
+    transform: translateY(9rem) translateX(2rem);
+  }
+}
+#email {
+  display: block;
+  outline: none;
+  width: 100%;
+  margin: 2rem 0;
+  border: none;
+  border-bottom: 2px solid var(--color-primary-2);
+  background: transparent;
+}
+#password {
+  display: block;
+  outline: none;
+  width: 100%;
+  margin: 2rem 0;
+  border: none;
+  border-bottom: 2px solid var(--color-primary-2);
+  background: transparent;
+}
+::placeholder {
+  color: var(--color-primary-2);
+}
+.forgot-link {
+  color: inherit;
+  text-decoration: underline;
+  &:hover{
+    color: var(--color-primary);
+  }
+}

@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #4ecf8f;
+  --color-primary-2: #faa45f;
+  --color-grey: #f0f7f4;
+  --font-display: 'Merriweather', serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-display);
+  font-weight: 300;
+}

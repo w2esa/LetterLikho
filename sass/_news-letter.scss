@@ -1,0 +1,25 @@
+.news-letter {
+  background: var(--color-primary-2);
+  padding: 5rem 0;
+  &__body {
+    color: white;
+    padding-top: 6rem;
+  }
+  &__title {
+    font-size: 3rem;
+  }
+  &__brief {
+    font-size: 1.6rem;
+  }
+  &__left {
+    position: relative;
+    transform: translateX(11rem);
+    -webkit-transform: translateX(11rem);
+    -moz-transform: translateX(11rem);
+    -ms-transform: translateX(11rem);
+    -o-transform: translateX(11rem);
+  }
+  &__img {
+    opacity: 0.5;
+  }
+}

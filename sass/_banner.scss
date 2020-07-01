@@ -1,0 +1,11 @@
+.banner{
+  margin-top: 20rem;
+  &-title {
+    font-size: 3rem;
+    &__paragraph {
+      font-size: 1.6rem;
+      padding: 2rem 0;
+      color: #001a0d;
+    }
+  }
+}
