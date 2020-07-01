@@ -45,12 +45,20 @@
   }
 }
 
-a{
-  text-decoration: none;
-  color: inherit;
-  font-family: inherit;
+p {
+  margin-bottom: 0;
 }
-a:hover{
-  text-decoration: none;
-  color: inherit;
+// [type='search'] {
+  
+// }
+
+input[type=checkbox]{
+  width: 2rem !important;
+  height: 2.2rem !important;
+}
+::placeholder{
+  color: grey !important;
+}
+a{
+  outline: none !important;
 }
