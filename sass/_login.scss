@@ -1,0 +1,140 @@
+.flex-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*  wrapper used to space from top and bottom */
+/* .wrapper {
+    padding: 40px 0;
+  } */
+/* =============================
+    Login Page Left
+  ===============================*/
+
+.login-left {
+  margin: 0 auto;
+}
+
+/*  Brand is the logo  */
+.brand {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: inline-block;
+  margin-bottom: 10rem;
+  margin-top: 4rem;
+  outline: none;
+}
+
+.brand:hover {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.login {
+  font-weight: 700;
+  margin-bottom: 4rem;
+  font-size: 2.8rem;
+}
+.signup {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #001a0d;
+}
+/* inputs in login style */
+.input-login {
+  width: 27.1rem;
+  padding: 2.2rem;
+  border-width: 1.5px;
+  border-radius: 0.6rem;
+  border-color: var(--color-primary);
+}
+
+.input-login:focus {
+  box-shadow: none;
+  outline: 0;
+  border-width: 0.2rem;
+  border-color: var(--color-primary);
+}
+
+.input-login::placeholder {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* input checkbox style */
+input[type='checkbox'] {
+  outline: none;
+}
+
+.form-check-label {
+  margin-bottom: 0px;
+  font-size: 1.8rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: #737b78;
+}
+
+input[type='checkbox'] {
+  margin-top: 1.3rem;
+  width: 2rem;
+  height: 1.5rem;
+}
+
+input[type='checkbox']:checked + label:before {
+  background: red !important;
+}
+
+
+/* Forget password style */
+a.password-forget {
+  display: block;
+  color: #737b78;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+/* =============================
+    Login Page Right
+  ===============================*/
+
+.login-right {
+  background: var(--color-primary);
+  width: 60%;
+  height: 100vh;
+  position: relative;
+}
+
+.login-right__content {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  margin-left: 8rem;
+  justify-content: center;
+}
+.login-right__title {
+  color: white;
+  line-height: 1.2;
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+.login-right__description {
+  width: 50%;
+  color: white;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+.login-right__image {
+  width: 40rem;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}

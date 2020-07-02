@@ -2,8 +2,8 @@
   &-log {
     text-decoration: none;
     color: var(--color-primary);
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 3.4rem;
+    font-weight: bold;
     &:hover {
       text-decoration: none;
       color: var(--color-primary);
@@ -11,6 +11,7 @@
   }
   &-copyright {
     font-size: 1.6rem;
+    padding-top: 2rem;
   }
   &-nav {
     text-align: right;
@@ -18,9 +19,11 @@
   &-navbar {
     text-decoration: none;
     list-style: none;
+    padding-top: 3re;
   }
   &-navbar__item {
     display: inline-block;
+    font-size: 1.8rem;
     &:not(:last-child) {
       padding-right: 3rem;
     }

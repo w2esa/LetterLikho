@@ -2,7 +2,7 @@
   transition: all 0.5s;
   background: var(--color-primary);
   z-index: 997;
-  padding: 15px 0;
+  padding: 1.5rem 0;
 }
 
 #header.header-scrolled {
@@ -11,26 +11,27 @@
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 2.2rem;
   margin: 0;
   padding: 0;
-  line-height: 1;
-  font-weight: 300;
+  line-height: 1.1;
+  font-weight: bold;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-display);
 }
 
 #header .logo a {
   color: #fff;
+  text-decoration: none;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 4rem;
 }
 
 @media (max-width: 992px) {
   #header .logo {
-    font-size: 28px;
+    font-size: 2.2rem;
   }
 }
 
@@ -53,51 +54,53 @@
   position: relative;
   white-space: nowrap;
 }
-.nav-menu > ul > li:not(:last-child){
+.nav-menu > ul > li:not(:last-child) {
   padding-right: 7rem;
 }
-
 
 .nav-menu > ul > li:hover::after {
   content: '';
   display: BLOCK;
   margin: 0 auto;
-  margin-top: 6px !important;
-  background: #Fff;
+  margin-top: 0.6rem !important;
+  background: #fff;
   height: 2.5px;
   margin-left: 0 !important;
   /* width: 4.7rem; */
 }
-
-
-
 
 .nav-menu a {
   display: block;
   position: relative;
   color: #fff;
   transition: 0.3s;
-  font-size: 1.6rem,;
+  font-size: 1.6rem;
   font-family: inherit;
   text-decoration: none;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: white;
 }
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
-  top: 18px;
+  right: 1.5rem;
+  top: 1.8rem;
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 2.4rem;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
 }
 
 .mobile-nav-toggle i {
@@ -106,18 +109,22 @@
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
+  top: 5.5rem;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
   z-index: 9999;
   overflow-y: auto;
   background: var(--color-primary);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
-  padding: 10px 0;
+  border-radius: 1rem;
+  padding: 1rem 0;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
 .mobile-nav * {
@@ -130,12 +137,14 @@
   display: block;
   position: relative;
   color: white;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   font-weight: 500;
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: white;
   text-decoration: none;
 }
@@ -150,6 +159,10 @@
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -ms-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
 }
 
 .mobile-nav-active {

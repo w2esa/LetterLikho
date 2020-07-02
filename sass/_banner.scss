@@ -1,11 +1,14 @@
 .banner{
   margin-top: 20rem;
   &-title {
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
     &__paragraph {
       font-size: 1.6rem;
-      padding: 2rem 0;
+      padding-top: 2rem;
+      padding-bottom: 6rem;
       color: #001a0d;
+      line-height: 2;
     }
   }
 }

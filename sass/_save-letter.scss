@@ -11,8 +11,13 @@
   }
   &__logo {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: var(--color-primary);
+    font-weight: bold;
+    &:hover{
+      text-decoration: none;
+      color: var(--color-primary);
+    }
   }
   &__icon {
     width: 2.5rem;
@@ -37,11 +42,11 @@
   }
   &-name {
     color: inherit;
-    font-weight: bold;
   }
   &-option {
     border: none;
     outline: none;
+    font-weight: bold;
   }
 }
 .admin {
@@ -131,8 +136,11 @@
       padding-left: 3rem;
 
       &--welcome {
+        font-size: 2rem;
       }
       &--name {
+        font-size: 3rem;
+        font-weight: bold;
       }
     }
     &--img {
@@ -154,6 +162,7 @@
       &--title {
         padding-bottom: 1rem;
         font-weight: bold;
+        font-size: 2.4rem;
       }
       &--icon {
         color: grey;
@@ -176,6 +185,10 @@
         -o-border-radius: 0.5em;
         outline: none;
       }
+      & label{
+        color: grey;
+        transform: translateY(-3.5rem) translateX(5rem);
+      }
     }
 
     &__wrapper,
@@ -188,7 +201,6 @@
 
       &__header {
         background: #f9f9f9;
-        margin-top: 2rem;
         border: 1px solid #77777745;
         border-radius: 0.2em;
         -webkit-border-radius: 0.2em;
