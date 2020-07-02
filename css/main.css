@@ -98,7 +98,7 @@ a {
 
 .btn-primary-outline-2 {
   background: transparent;
-  padding: .8rem 4rem;
+  padding: .8rem 3rem;
   outline: none;
   margin: 2rem 0;
   margin-left: 2rem;
@@ -387,8 +387,8 @@ a {
   .card-title {
     color: var(--color-primary);
     text-transform: capitalize;
-    font-size: 4.2rem;
-    font-weight: 700; }
+    font-size: 3rem;
+    font-weight: bold; }
   .card-text {
     font-size: 1.6rem;
     line-height: 2; }
@@ -942,6 +942,9 @@ a.password-forget {
   .admin-email {
     font-size: 1rem; }
 
+  .admin-bar__details {
+    padding: 0 1rem; }
+
   .admin-bar__details--icon {
     width: 2rem;
     height: 2rem;
@@ -967,6 +970,9 @@ a.password-forget {
   .admin-body__content__compose__input {
     flex-direction: column; }
 
+  .admin-body__content {
+    padding: 2rem 1rem; }
+
   .admin-body__content__content__header__sent--title {
     padding-left: 7rem; }
 
@@ -974,7 +980,25 @@ a.password-forget {
     margin-left: 2rem; }
 
   .admin-body__content__wrapper__sent__content {
-    padding-left: 2rem; } }
+    padding-left: 2rem; }
+
+  .col-md-6 {
+    padding-left: 0; }
+
+  .banner-title {
+    font-size: 3rem; }
+
+  .jumbotron {
+    padding: 4rem 0; }
+
+  .card-body {
+    padding: 0; }
+
+  .card-title {
+    font-size: 2.5rem; }
+
+  .new-letter__title {
+    font-size: 3rem; } }
 @media screen and (max-width: 425px) {
   .user {
     justify-content: start;
@@ -996,7 +1020,20 @@ a.password-forget {
     width: 0.5rem; }
 
   .admin-body__content__content__header--title {
-    width: 55%; } }
+    width: 55%; }
+
+  .subscribe-body {
+    width: 90%;
+    transform: translate(17px, 10px);
+    padding: 1rem;
+    -webkit-transform: translate(17px, 10px);
+    -moz-transform: translate(17px, 10px);
+    -ms-transform: translate(17px, 10px);
+    -o-transform: translate(17px, 10px); }
+
+  .subscribe-right {
+    width: 95%;
+    padding: 3rem; } }
 .footer-log {
   text-decoration: none;
   color: var(--color-primary);

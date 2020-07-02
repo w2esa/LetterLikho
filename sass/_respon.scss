@@ -71,7 +71,9 @@
   .admin-email {
     font-size: 1rem;
   }
-
+  .admin-bar__details{
+    padding: 0 1rem;
+  }
   .admin-bar__details--icon {
     width: 2rem;
     height: 2rem;
@@ -102,6 +104,9 @@
   }
 
   //Admin Sent Section
+  .admin-body__content{
+    padding: 2rem 1rem;
+  }
   .admin-body__content__content__header__sent--title {
     padding-left: 7rem;
   }
@@ -111,6 +116,28 @@
   }
   .admin-body__content__wrapper__sent__content {
     padding-left: 2rem;
+  }
+  // Banner
+  .col-md-6{
+    padding-left: 0;
+  }
+  .banner-title{
+    font-size: 3rem;
+  }
+
+  // About Section
+  .jumbotron{
+    padding: 4rem 0;
+  }
+  .card-body{
+    padding: 0;
+  }
+  .card-title{
+    font-size: 2.5rem;
+  }
+  //NEw Letter
+  .new-letter__title{
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 425px) {
@@ -138,6 +165,20 @@
   }
   .admin-body__content__content__header--title{
       width: 55%;
+  }
+  //Subscrips
+  .subscribe-body{
+    width: 90%;
+    transform: translate(17px, 10px);
+    padding: 1rem;
+    -webkit-transform: translate(17px, 10px);
+    -moz-transform: translate(17px, 10px);
+    -ms-transform: translate(17px, 10px);
+    -o-transform: translate(17px, 10px);
+}
+  .subscribe-right{
+    width: 95%;
+    padding: 3rem;
   }
 }
 
