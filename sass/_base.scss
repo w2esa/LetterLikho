@@ -18,6 +18,35 @@ html {
   font-family: var(--font-display);
   font-size: 62.5%;
 }
+// @include media-breakpoint-up(md) { font-size: 56.25% }
+// @include media-breakpoint-up(lg) { font-size: 50% }
+// @include media-breakpoint-up(xl) { font-size: 75% }
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { font-size 56.25% }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+
+
+
+
+
+
+
 body {
   font-size: 1.6rem;
   font-family: var(--font-display);

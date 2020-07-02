@@ -5,6 +5,16 @@
   justify-content: space-between;
 }
 
+// @media only screen and (min-width: 480px) and (max-width: 767px) {
+//   .flex-container {
+//     flex-direction: column;
+//     justify-content: start;
+//   }
+//   .login-right{
+//     width: 100vw;
+//   }
+// }
+
 /*  wrapper used to space from top and bottom */
 /* .wrapper {
     padding: 40px 0;
@@ -76,20 +86,18 @@ input[type='checkbox'] {
   font-size: 1.8rem;
   margin-right: 2rem;
   margin-left: 2rem;
-  margin-top: 1rem;
   color: #737b78;
 }
 
-input[type='checkbox'] {
-  margin-top: 1.3rem;
-  width: 2rem;
-  height: 1.5rem;
-}
+// input[type='checkbox'] {
+//   margin-top: 1.3rem;
+//   width: 2rem;
+//   height: 1.5rem;
+// }
 
 input[type='checkbox']:checked + label:before {
   background: red !important;
 }
-
 
 /* Forget password style */
 a.password-forget {
@@ -132,7 +140,7 @@ a.password-forget {
   padding-top: 1rem;
 }
 .login-right__image {
-  width: 40rem;
+  max-width: 50%;
   height: auto;
   position: absolute;
   right: 0;
