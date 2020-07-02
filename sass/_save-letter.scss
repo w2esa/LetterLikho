@@ -296,3 +296,19 @@
   padding-right: 2rem;
   width: 12%;
 }
+
+.flex-container{
+  display: flex;
+  // justify-content: space-between;
+}
+
+.left-side{
+flex-basis: 20%;
+}
+.right-side{
+  flex-basis: 70%;
+  margin-right: 4rem;
+}
+.right-side-user{
+  margin-right: 4rem;
+}

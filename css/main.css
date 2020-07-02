@@ -799,6 +799,19 @@ a.password-forget {
   padding-right: 2rem;
   width: 12%; }
 
+.flex-container {
+  display: flex; }
+
+.left-side {
+  flex-basis: 20%; }
+
+.right-side {
+  flex-basis: 70%;
+  margin-right: 4rem; }
+
+.right-side-user {
+  margin-right: 4rem; }
+
 .admin-body__content__content__header__sent--title {
   width: 67%;
   padding-left: 12.6rem; }
