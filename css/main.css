@@ -687,39 +687,40 @@ a.password-forget {
     -moz-border-radius: 0.5em;
     -ms-border-radius: 0.5em;
     -o-border-radius: 0.5em; }
-    .admin-body__content__search--title {
-      padding-bottom: 1rem;
-      font-weight: bold;
-      font-size: 2.4rem; }
-    .admin-body__content__search--icon {
-      color: grey;
-      opacity: 0.5;
-      font-size: 2rem !important;
-      padding-top: -7rem;
-      position: absolute;
-      padding-top: 1.4rem;
-      padding-left: 2rem; }
-    .admin-body__content__search--box {
-      width: 100%;
-      border: none;
-      border: 1px solid #77777745;
-      padding: 1rem 5rem;
-      border-radius: 0.5em;
-      -webkit-border-radius: 0.5em;
-      -moz-border-radius: 0.5em;
-      -ms-border-radius: 0.5em;
-      -o-border-radius: 0.5em;
-      outline: none; }
-    .admin-body__content__search label {
-      color: grey;
-      transform: translateY(-3.5rem) translateX(5rem); }
-    .admin-body__content__wrapper, .admin-body__content__wrapper__header {
+    .admin-body__content__search {
+      margin-bottom: 2rem; }
+      .admin-body__content__search--title {
+        padding-bottom: 1rem;
+        font-weight: bold;
+        font-size: 2.4rem; }
+      .admin-body__content__search--icon {
+        color: grey;
+        opacity: 0.5;
+        font-size: 2rem !important;
+        padding-top: -7rem;
+        position: absolute;
+        padding-top: 1.4rem;
+        padding-left: 2rem; }
+      .admin-body__content__search--box {
+        width: 100%;
+        border: none;
+        border: 1px solid #77777745;
+        padding: 1rem 5rem;
+        border-radius: 0.5em;
+        -webkit-border-radius: 0.5em;
+        -moz-border-radius: 0.5em;
+        -ms-border-radius: 0.5em;
+        -o-border-radius: 0.5em;
+        outline: none; }
+      .admin-body__content__search input::placeholder {
+        color: grey; }
+    .admin-body__content__wrapper, .admin-body__content__header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 2rem 0;
       border-bottom: 1px solid #77777745; }
-      .admin-body__content__wrapper__header, .admin-body__content__wrapper__header__header {
+      .admin-body__content__wrapper__header, .admin-body__content__header__header {
         background: #f9f9f9;
         border: 1px solid #77777745;
         border-radius: 0.2em;
@@ -727,24 +728,23 @@ a.password-forget {
         -moz-border-radius: 0.2em;
         -ms-border-radius: 0.2em;
         -o-border-radius: 0.2em; }
-      .admin-body__content__wrapper__icons, .admin-body__content__wrapper__header__icons {
+      .admin-body__content__wrapper__icons, .admin-body__content__header__icons {
         padding-left: 2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 10%; }
-        .admin-body__content__wrapper__icons--icon svg, .admin-body__content__wrapper__header__icons--icon svg {
+        .admin-body__content__wrapper__icons--icon svg, .admin-body__content__header__icons--icon svg {
           height: 2rem;
           width: 2rem;
           display: inline-block; }
-      .admin-body__content__wrapper__content, .admin-body__content__wrapper__header__content {
+      .admin-body__content__wrapper__content, .admin-body__content__header__content {
         width: 62%;
         font-size: 1.3rem; }
-        .admin-body__content__wrapper__content--header, .admin-body__content__wrapper__header__content--header {
+        .admin-body__content__wrapper__content--header, .admin-body__content__header__content--header {
           font-weight: bold; }
-      .admin-body__content__wrapper--date, .admin-body__content__wrapper__header--date {
-        padding-right: 2rem;
-        width: 12%; }
+      .admin-body__content__wrapper--date, .admin-body__content__header--date {
+        width: 10%; }
     .admin-body__content__show {
       display: flex;
       align-items: center;
@@ -796,8 +796,7 @@ a.password-forget {
   font-weight: bold; }
 
 .admin-body__content__header__date--title {
-  padding-right: 2rem;
-  width: 12%; }
+  width: 10%; }
 
 .flex-container {
   display: flex; }

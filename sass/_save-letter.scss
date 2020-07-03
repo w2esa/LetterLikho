@@ -159,6 +159,7 @@
     -ms-border-radius: 0.5em;
     -o-border-radius: 0.5em;
     &__search {
+      margin-bottom: 2rem;
       &--title {
         padding-bottom: 1rem;
         font-weight: bold;
@@ -185,14 +186,15 @@
         -o-border-radius: 0.5em;
         outline: none;
       }
-      & label{
+      & input::placeholder{
         color: grey;
-        transform: translateY(-3.5rem) translateX(5rem);
-      }
+        // transform: translateY(-3.5rem) translateX(5rem);
+        
+}
     }
 
     &__wrapper,
-    &__wrapper__header {
+    &__header {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -230,8 +232,8 @@
         }
       }
       &--date {
-        padding-right: 2rem;
-        width: 12%;
+        // padding-right: 2rem;
+        width: 10%;
       }
     }
     &__show {
@@ -293,8 +295,8 @@
   font-weight: bold;
 }
 .admin-body__content__header__date--title {
-  padding-right: 2rem;
-  width: 12%;
+  // padding-right: 2rem;
+  width: 10%;
 }
 
 .flex-container{
