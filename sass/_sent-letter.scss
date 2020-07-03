@@ -1,5 +1,5 @@
 .admin-body__content__content__header__sent--title{
-  width: 67%;
+  width: 73%;
   padding-left: 12.6rem;
 }
 
@@ -10,8 +10,8 @@
   padding: 2rem 0;
   border-bottom: 1px solid #77777745;
   &__sent {
-    width: 14%;
-    margin-left: 6rem;
+    width: 10%;
+    margin-left: 2rem;
     &--text {
       font-size: 1.3rem;
       display: flex;
@@ -25,14 +25,14 @@
       width: 10%;
     }
     &__content {
-      width: 60%;
-      font-size: 1.2rem;
+      // width: 60%;
+      font-size: 1.6rem;
       padding-left: 3rem;
     }
     &--date {
-      padding-right: 2rem;
-      width: 12%;
-      font-size: 1.2rem;
+      // padding-right: 2rem;
+      width: 10%;
+      font-size: 1.6rem;
     }
   }
 }
